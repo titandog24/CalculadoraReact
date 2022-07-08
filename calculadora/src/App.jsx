@@ -25,7 +25,7 @@ const clickR = (value, setTexto) => {
 }
 
 const App = () => {
-    const valoresDeBotones = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+    const valoresDeBotones = ['7', '8', '9','4', '5', '6','1', '2', '3',   '0']
     const stateApp = useState("")
     const [texto, setTexto] = stateApp
     const items = words(texto,/[^-^+^*^/]+/g)
